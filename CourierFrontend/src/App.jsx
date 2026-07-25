@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
 
-  const API="http://localhost:8080/courier";
+  const API = "https://courier-backend-production-b07c.up.railway.app";
 
   const [couriers,setCouriers]=useState([]);
   const [editCourier,setEditCourier]=useState(null);
